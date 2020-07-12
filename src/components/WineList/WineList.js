@@ -7,7 +7,7 @@ class WineList extends Component {
       <div>
         <BootstrapTable data={this.props.wines}>
           <TableHeaderColumn isKey dataField='id'> ID </TableHeaderColumn>
-          <TableHeaderColumn dataField='name'> Name </TableHeaderColumn>
+          <TableHeaderColumn dataField='wine_name'> Name </TableHeaderColumn>
           <TableHeaderColumn dataField='price'> Price </TableHeaderColumn>
           <TableHeaderColumn dataField='varietal'> Varietal </TableHeaderColumn>
           <TableHeaderColumn dataField='description'> Description </TableHeaderColumn>
